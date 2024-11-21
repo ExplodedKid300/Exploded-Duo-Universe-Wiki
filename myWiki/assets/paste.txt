@@ -1,0 +1,137 @@
+ <!-- Example character -->
+            <div class="character-card">
+                <img src="assets/images/placeholder-image.png" alt="Character Image">
+                <a href="assets/characters/link.html"><h3>Nmae (NN)</h3></a>
+                <p>Desc</p>
+            </div>
+
+            <hr />
+            <br />
+
+<!-- Character Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name - Character Wiki</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="icon" href="../icons/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Name</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="#appearance">Appearance</a></li>
+                <li><a href="#personality">Personality</a></li>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#abilities">Abilities</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sidebar Section (Profile Information) -->
+    <aside>
+        <img src="../images/image.png" alt="Name">
+        <h3>Profile</h3>
+        <table>
+            <tr>
+                <td><strong>Name:</strong></td>
+                <td>Name</td>
+            </tr>
+            <tr>
+                <td><strong>Gender:</strong></td>
+                <td>Gender</td>
+            </tr>
+            <tr>
+                <td><strong>Age:</strong></td>
+                <td>Age</td>
+            </tr>
+            <tr>
+                <td><strong>Race:</strong></td>
+                <td>Race</td>
+            </tr>
+            <tr>
+                <td><strong>Birthday:</strong></td>
+                <td>Birthday</td>
+            </tr>
+            <tr>
+                <td><strong>Alignment:</strong></td>
+                <td>Alignment</td>
+            </tr>
+            <tr>
+                <td><strong>Hometown:</strong></td>
+                <td><br />(Contenent)<hr /><br />(State)<hr /><br />(City)</td>
+            </tr>
+            <tr>
+                <td><strong>Family:</strong></td>
+                <td>???<br />(Relation)<hr /></td>
+            </tr>
+            <tr>
+                <td><strong>Friends:</strong></td>
+                <td>Friends</td>
+            </tr>
+            <tr>
+                <td><strong>Occupation:</strong></td>
+                <td>Occupation</td>
+            </tr>
+            <tr>
+                <td><strong>Appears in:</strong></td>
+                <td>Appears</td>
+            </tr>
+            <tr>
+                <td><strong>Abilities:</strong></td>
+                <td>Abilities</td>
+            </tr>
+        </table>
+    </aside>
+
+
+    <!-- Main Content -->
+    <main>
+        <section id="appearance">
+            <h2>Appearance</h2>
+            <p>appearance</p>
+        </section>
+
+        <section id="personality">
+            <h2>Personality</h2>
+            <p>personality</p>
+        </section>
+
+        <section id="biography">
+            <h2>Biography</h2>
+            <p>Bio</p>
+        </section>
+
+        <section id="abilities">
+            <h2>Abilities</h2>
+            <p></p>
+        </section>
+
+        <section id="trivia">
+            <h2>Trivia</h2>
+            <ul>
+                <li></li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <img src="assets/images/galleryimg.png" alt="ImageDesc">
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Wiki. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../../scripts.js"></script>
+</body>
+</html>
