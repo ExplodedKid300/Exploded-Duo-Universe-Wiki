@@ -1,0 +1,204 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #5d9d2d;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+    header nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+        header nav ul li {
+            display: inline;
+        }
+
+            header nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+
+#characters, #lore, #contact {
+    margin-top: 2rem;
+}
+
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+    .character-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .character-card h3 {
+        margin: 0;
+    }
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+#search-form {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-bar {
+    padding: 8px;
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+    #search-bar:focus {
+        outline: none;
+        border-color: #4CAF50;
+    }
+
+#search-form button {
+    margin-left: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    #search-form button:hover {
+        background-color: #45a049;
+    }
+
+.character-card {
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .character-card img {
+        max-width: 100px;
+        border-radius: 50%;
+    }
+
+    .character-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+/* Sidebar Profile Styling */
+aside {
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    aside img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    aside h3 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    aside ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        aside ul li {
+            margin-bottom: 10px;
+        }
+
+            aside ul li strong {
+                font-weight: bold;
+            }
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+    section h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    section p {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+
+/* Styling for the sidebar table */
+aside table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    aside table td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        vertical-align: top; /* Align text to the top of the cell */
+    }
+
+        aside table td:first-child {
+            font-weight: bold;
+            width: 30%;
+        }
+
+        aside table td:last-child {
+            text-align: left;
+        }
